@@ -15,3 +15,11 @@ public class TugasProgramSegitiga {
         for(i=0;i<=Nilai;i++) {
             for(a=0; a<i; a++) {
                 System.out.print("^");
+                  }
+            System.out.print("\n");
+        }
+        System.out.println();
+        
+        for(i=0;i<Nilai;i++) {
+            for(a=i;a<Nilai;a++) {
+                System.out.print("^");
