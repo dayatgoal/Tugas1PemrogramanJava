@@ -44,3 +44,19 @@ public class TugasProgramSegitiga {
             }
             for(a=0; a<(Nilai-i); a++) {
                 System.out.print("^");
+                 }
+            System.out.println();
+        }
+        
+        for(i=0; i<=Nilai; i++) {
+            for (int e=1; e<=Nilai-i; e++) {
+                System.out.print (" ");
+            }
+            for (int e=1; e<2*i; e++) {
+                System.out.print ("^");
+            }
+        System.out.println (" ");
+        }
+        
+    }
+}
